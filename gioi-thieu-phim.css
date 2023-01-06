@@ -1,0 +1,444 @@
+*{
+    margin: auto;
+    top: 0;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    padding: 0 60px;  
+    background-color:#000000;
+}
+.top{
+    flex: 10%;
+    text-align: center;
+    font-size: 30px;
+}
+.top a{
+    text-decoration: none;
+    color: black;
+}
+.top a img{
+    padding-top: 10px;
+    width: 250px;
+    
+}
+.menu{
+    flex: 3;
+    display: flex;
+} 
+.menu li{
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    padding: 0 12px;
+    position: relative;
+}
+.menu li a{
+    text-decoration: none;
+    color:white;
+    
+}
+.menu >li:hover .trang-chu{
+    visibility: visible;
+    top: 45px;
+}
+.trang-chu{
+    position: absolute;
+    width: 250px;
+    padding: 10px 0 10px 0px ;
+    visibility: hidden;
+    top:60px;
+    transition: 0.3s;
+    z-index: 1;
+    background:black;
+
+}
+.trang-chu ul{
+    padding-left: 20px;
+}
+.trang-chu ul a{
+    font-size: normal!important;
+    font-size: 12px!important;
+}
+.trang-chu  li a{
+    font-size: 12px;
+    font-weight: bold!important;
+    display: block;
+    line-height: 20px;
+}
+
+.box1 input[type="text"]{
+    font-size: 14px;
+    height: 43px;
+    border: 1px solid #222629;
+    padding: 0 250px 0 10px;
+    outline: 0;
+    border-radius: 5px 0 0 5px;
+}
+button[type="submit"]{
+    margin-top: 18px;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    background: #3c3d3d;
+}
+.search-tk{
+    float: right;
+    padding: 5px;
+    padding-right: 20px;
+}
+.vip{
+    padding-top: 10px;
+}
+
+.login{
+    flex: 1;
+    display: flex;
+}
+.time{
+    margin-left: 45px;
+    font-size: 30px;
+}
+.account{
+    margin-left: 5px;
+    padding-top: 8px;
+    font-size: 30px;
+    padding: 10px;
+}
+input[type="button"]{
+    border: none;
+    background: #45a29e;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+input[type="button"]:hover{
+    transform: scale(1.1);
+}
+.box4{
+    color: white;
+    font-weight: 100;
+    padding: 15px;
+}
+.box4 ul li{
+    padding: 10px 30px 0 20px;
+    list-style: none;
+}
+.box4 ul input{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.quyenloi{
+    position: absolute;
+    margin-top: 60px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    background: #0b0c10;
+    border-radius: 0 0 20px 20px;
+    display: none;
+}
+.box4 input:hover{
+    cursor: pointer;
+}
+.box4:hover .quyenloi{
+    display: block;
+}
+/*introduce +tập phim +coment + phim cùng thể loại*/
+section{
+    height: auto;
+}
+.center-1{
+    background: black;
+    color: aliceblue;
+    
+}
+.center{
+    padding-top: 30px;
+}
+.introduce{ 
+    width: 90%;   
+    display: flex;
+    background: url(./icon/nen.png) ; 
+      
+}
+.menu-introduce-1{
+    width: 50%;
+    padding-top: 30px ;
+    
+}
+.menu-introduce-1 p{
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 40px; 
+    text-align: center;
+}
+.thong-tin{
+    display: flex;
+    padding-left: 30px;  
+}
+
+.thong-tin li{
+    font-size: 20px;
+    display: block;
+    padding: 30px 30px 10px 10px;
+}
+.thong-tin li a{
+    text-decoration:initial;
+    color: aliceblue;
+}
+.dao-dien{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.button-play{
+    padding:90px  20px 90px 50px ;  
+}
+.button-play-1{
+    font-size: 20px;
+    padding: 10px ;
+    margin-right: 20px;
+    letter-spacing: 1px;
+    background-color:#45A29E;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+
+}
+.button-play-2{
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 10px;
+    text-align: right;
+    background-color:#45A29E;
+    text-decoration:none;
+    color: white;
+    border-radius: 10px;
+}
+
+.button-share{
+    float: right;
+    padding: 380px 20px 20px  20px;
+}
+.button-share-1{
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 10px;
+    text-align: right;
+    background-color:#3C3D3D;
+    text-decoration:none;
+    color: white;
+    border: 1px solid #3C3D3D;
+    border-radius: 10px;
+    
+}
+.button-share-2{
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 10px;
+    text-align: right;
+    background-color:#3C3D3D;
+    text-decoration:none;
+    color: white;
+    border: 1px solid #3C3D3D;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.tap{
+    padding-left:72px;
+}
+
+.contact-demo{
+    border-top: 1px solid white ;
+   
+    display: flex;
+    background-color:black;
+    
+}
+.contact-demo li{
+    display: block;
+}
+.contact-demo li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+/*chon tap*/
+.ke{
+    padding: 30px 0px 30px 0px;
+    color:gray;
+}
+
+.chon-tap p{
+    padding: 20px 72px 20px 72px;
+    font-size: 30px;
+}
+.tap{
+    display: flex;
+    padding-left: 52px;
+    text-decoration: initial;
+    margin-right: 90px;
+}
+.tap button{
+   border-radius: 10px;
+   font-size: 35px;
+   padding: 10px 20px;
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+.tap button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/*comment*/
+.comment p{
+    padding: 20px 72px 20px 72px;
+    font-size: 20px;
+}
+.input-comment{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: aliceblue;
+    margin-left: 140px;
+    border-bottom: 1px solid #fff;
+    width: 1270px;
+    font-size: 20px;
+}
+
+.container-all-comment{
+    position: relative;
+    padding-top: 20px;
+    width: 1270px;
+}
+.container-all-comment ul{
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding-bottom: 30px;
+}
+.cmt{
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 1.5;
+}
+.cmt a{
+    position: absolute;
+}
+.cmt li{  
+    position: relative;
+    left: 80px;
+}
+.cmt li a{
+    position: absolute;
+}
+.cmt li ul a img{
+    position: absolute;
+    left: -40px;
+}
+.cmt li ul a img:hover{
+    transform: scale(1.1);
+}
+.cmt li ul li{
+    position: absolute;
+}
+.cmt li ul li:hover{
+    cursor: pointer;
+    color: #45a29e;
+}
+
+
+.comment a{
+    text-decoration: none;
+    color: white;
+}
+
+/*giới thiệu*/
+
+.more-film{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    width: 95%;
+    border-bottom: 1px solid gray;
+}
+.row-more-film{
+    display: flex;
+}
+.col-more-film li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.col-more-film li a img:hover{
+    transform: scale(1.1);
+}
+.col-more-film li:hover{
+    color: #45a29e;
+    cursor: pointer;
+}
+
+.footer{
+    background: #0b0c10;
+    box-sizing: border-box; 
+}
+.footer-col ul{
+    list-style: none;
+    padding: 30px 0 0 0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 100x;
+    padding: 0 120px;
+    margin: 30px 0;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.footer-col ul li{
+    padding-bottom: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    display: block;
+}
+.footer-col ul li:hover{
+    color: #45a29e;
+    cursor: pointer;
+}
+.footer a{
+    color: #ffffff;
+    padding-left: 120px;
+}
+.social_menu{
+    display: flex;
+    position: relative;
+}
+.social_menu a{
+    list-style: none;
+    position: relative;
+    left: 1100px;
+    margin: 0;
+    padding: 30px;
+}
+.social_menu a:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}

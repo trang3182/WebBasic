@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="xemphim.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>HTA</title>
+</head>
+<body>
+    <!--thanh header-->
+    <div class="navbar">
+        <nav>
+        <!--dán link trang chủ-->
+        <div class="logo">
+            <a href="./main.html"><img src="./icon/HTAplay.png"></a>
+        </div>
+        <!--dán link trang chủ-->
+        <div class="home">
+            <a href="./main.html">Trang chủ</a>
+        </div>
+        <!--list thể loại-->
+        <div class="theloai">Thể loại
+            <ul class="list">
+                <li class="list_item">Hành động</li>
+                <li class="list_item">Tâm lý tình cảm</li>
+                <li class="list_item">Hài</li>
+                <li class="list_item">Khoa học viễn tưởng</li>
+                <li class="list_item">Kinh dị</li>
+                <li class="list_item">Hoạt hình</li>
+                <li class="more">Xem thêm<a><img src="./icon/Icon-openmore.png"></a></li>
+            </ul>
+        </div>
+        <!--thanh tìm kiếm-->
+        <div class="box1">
+            <input type="text" name="search" placeholder="Tìm kiếm phim..." required>
+            <button type="submit"><img src="./icon/Icon-search.png">
+        </div>
+        <!--hai nút lịch sử và tài khoản-->
+        <div class="box2">
+            <ul>
+                <li><a><img src="./icon/Icon-history.png"></a></li>
+                <li class="account-container">
+                    <a><img src="./icon/Icon-account.png"></a>
+                    <ul class="account">
+                        <li>Đăng nhập để theo dõi những bộ phim mới nhất</li>
+                        <a href="./dang-nhap.html"><input type="button" value="Đăng nhập"></a>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!--dán 2 link mua vip-->
+        <div class="box4">
+            <a href="./Muavip.html"><input type="button" value="Mua VIP"></a>
+            <ul class="quyenloi">
+                <li>Hỗ trợ đa nền tảng</li>
+                <li>Blu-ray 1080p</li>
+                <li>Nội dung độc quyền</li>
+                <li>Không quảng cáo</li>
+                <a href="./Muavip.html"><input type="button" value="Đăng ký VIP"></a>
+            </ul>
+        </div>
+        </nav>
+    </div>
+    <!--phần chính của trang xem phim-->
+    <div class="main">
+        <div class="film">
+            <a><img src="./icon/chiếc bật lửa.png"></a>
+        </div>
+        <!--tên phim và tập-->
+        <div class="name-ep">
+            <a>Chiếc bật lửa và váy công chúa</a>
+            <a><img src="./icon/Icon-next.png"></a>
+            <a>Tập 1</a>
+        </div>
+        <!--đánh giá-->
+        <div class="rating">
+            <a><img src="./icon/Icon-rating.png"></a>
+            <a>9.5</a>
+        </div>
+        <!--lượt xem-->
+        <div class="view">
+            <a>Lượt xem: 2.1M</a>
+        </div>
+        <!--thông tin-->
+        <div class="information">
+            <a>2022</a>
+            <a>36 Tập</a>
+            <a>Trung Quốc</a>
+        </div>
+        <!--chọn tập-->
+        <div class="choose-ep">Chọn tập
+            <ul class="list-ep">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+            </ul>
+        </div>
+        <!--bình luận-->
+        <div class="comment">50 bình luận
+            <!--thanh nhập bình luận-->
+            <div class="container-your-comment">
+                <a><img src="./icon/Icon-account-w.png"></a>
+                <input type="text" placeholder="Viết bình luận...">
+            </div>
+            <!--các bình luận-->
+            <div class="container-all-comment">  
+                <ul class="cmt">
+                    <a><img src="./icon/Icon-account-w.png"></a>
+                    <li>@hanhpham</li>
+                    <li>Hóngg</li>
+                    <li>
+                        <ul>
+                            <a><img src="./icon/Icon-like.png">3</a>
+                            <li>Trả lời</li>
+                        </ul>
+                        
+                    </li>
+                </ul>    
+                
+                <ul class="cmt">
+                    <a><img src="./icon/Icon-account-w.png"></a>
+                    <li>@toanvu</li>
+                    <li>Bao giờ có tập 14 vậy?</li>
+                    <li>
+                        <ul>
+                            <a><img src="./icon/Icon-like.png">12</a>
+                            <li>Trả lời</li>
+                        </ul>                       
+                    </li>
+                </ul>
+
+                <ul class="cmt">
+                    <a><img src="./icon/Icon-account-w.png"></a>
+                    <li>@trangninh</li>
+                    <li>Phim hay quá</li>
+                    <li>
+                        <ul>
+                            <a><img src="./icon/Icon-like.png">55</a>
+                            <li>Trả lời</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="more-comment">Xem thêm 47 bình luận khác<a><img src="./icon/Icon-openmore.png"></a></div>
+        </div>
+        <!--phim cùng thể loại-->
+        <div class="more-film">Phim cùng thể loại
+            <div class="container-more-film">
+                <div class="row-more-film">
+                    <ul class="col-more-film">
+                        <li><a><img src="./icon/tinhieuchetchoc.jpg"></a></li>
+                        <li>Tin Hiệu Chết Chóc</li>
+                    </ul>
+
+                    <ul class="col-more-film">
+                        <li><a><img src="./icon/phiho3.jpg"></a></li>
+                        <li>Phi Hổ 3</li>
+                    </ul>
+
+                    <ul class="col-more-film">
+                        <li><a><img src="./icon/giadanh.jpg"></a></li>
+                        <li>Giả Danh</li>
+                    </ul>
+
+                    <ul class="col-more-film">
+                        <li><a><img src="./icon/congtovienlachluat.jpg"></a></li>
+                        <li>Công Tố Viên Lách Luật</li>
+                    </ul>
+
+                    <ul class="col-more-film">
+                        <li><a><img src="./icon/amthanhtoipham3.jpg"></a></li>
+                        <li>Âm Thanh Tội Phạm</li>
+                    </ul>
+
+                    <ul class="col-more-film">
+                        <li><a><img src="./icon/chandungacquy.jpg"></a></li>
+                        <li>Chân Dung Ác Quỷ</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--thanh footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Về chúng tôi</h4>
+                    <ul>
+                        <li>Công ty</li>
+                        <li>Dịch vụ sản phẩm</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Hỗ trợ</h4>
+                    <ul>
+                        <li>Trung tâm hỗ trợ</li>
+                        <li>Câu hỏi thường gặp</li>
+                        <li>FAQs</li>
+                        <li>Góp ý</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quy định</h4>
+                    <ul>
+                        <li>Điều khoản sử dụng</li>
+                        <li>Điều khoản quyền riêng tư</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Liên hệ</h4>
+                    <ul>
+                        <li>SĐT</li>
+                        <li>Địa chỉ</li>
+                        <li>Email</li>
+                    </ul>
+                </div>
+
+            </div>
+            <a>Copyright</a>
+            <div class="social_menu">
+                <a><img src="./icon/Icon-fb-w.png"></a>
+                <a><img src="./icon/Icon-twitter-w.png"></a>
+                <a><img src="./icon/Icon-ig-w.png"></a>
+            </div>
+        </div>        
+    </footer>
+    
+</body>
+</html>
